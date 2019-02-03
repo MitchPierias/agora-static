@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Libre Franklin", "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+/**
+ * @Chrome
+ * SVG Inline spacing Fix
+ **/
+svg {
+	vertical-align:top;
+    display:block;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgb(255,82,107);
+    background: -webkit-linear-gradient(-70deg, rgb(251,50,84) 0%, rgb(255,82,107) 100%);
+}
+
+header {
+    width: 100vw;
+    color: #ffffff;
+    background: rgb(255,82,107);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav a {
+    padding: 0px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+main {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+footer {
+    width: 60vw;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.carousel {
+    max-width:960px;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+}
+
+.download {
+    height: 24vw;
+    width: 24vw;
+    max-width: 250px;
+    max-height: 250px;
+    margin: 1vw;
+    border: 1px solid red;
+}

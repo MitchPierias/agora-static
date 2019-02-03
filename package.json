@@ -1,0 +1,40 @@
+{
+  "name": "agora-static",
+  "private": false,
+  "description": "A Content Delivery site for distribution of Agora binaries",
+  "version": "0.1.0",
+  "author": "Mitch Pierias <github.com/MitchPierias>",
+  "dependencies": {
+    "gatsby": "^2.0.107",
+    "gatsby-image": "^2.0.29",
+    "gatsby-plugin-manifest": "^2.0.16",
+    "gatsby-plugin-offline": "^2.0.22",
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby-plugin-s3": "^0.2.2",
+    "gatsby-plugin-sharp": "^2.0.19",
+    "gatsby-source-filesystem": "^2.0.19",
+    "gatsby-transformer-sharp": "^2.1.13",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "agora"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "deploy": "gatsby-plugin-s3 deploy",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
