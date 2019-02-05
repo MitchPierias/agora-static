@@ -1,4 +1,4 @@
-# ![Logo](/src/images/favicon-32x32.png | height=28) Agora Static
+# <img src="/src/images/favicon-32x32.png" alt="Logo" height="28px"> Agora Static
 The static content delivery website for the Agora Application.
 
 ## Usage
