@@ -1,6 +1,6 @@
 <p align="left" style="display:flex;flex-direction:row;justify-content:flex-start;align-items:center;">
   <img src="/src/images/favicon-32x32.png" height="30px" title="Agora logo">
-  <h1>Agora-Static</h1>
+  <h1 display:"inline-block">Agora-Static</h1>
 </p>
 The static content delivery website for the Agora Application.
 
