@@ -1,4 +1,4 @@
-# ![GitHub Logo](/src/images/favicon-32x32.png) Agora Static
+# ![Logo](/src/images/favicon-32x32.png) Agora-Static
 The static content delivery website for the Agora Application.
 
 ## Usage
