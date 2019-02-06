@@ -7,14 +7,14 @@ Install all required dependencies before continuing.
 npm install
 ```
 
-#### Development
+### Development
 To run the static site in development mode with Gatsby, simply execute;
 ```
 npm start
 ```
 Hot loading will automatically trigger a build and refresh for any changes made within the `./src` directory.
 
-#### Deployment
+### Deployment
 Before deploying it's important to build the optimised resources. You'll need to execute a build everytime you wish to publish updated code.
 ```
 npm run build
