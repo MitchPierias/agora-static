@@ -18,7 +18,7 @@ svg {
     display:block;
     outline: none;
     padding: 0;
-    margin: 0;
+    margin: 0px -1px;
 }
 
 body {
@@ -36,6 +36,11 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
 }
 
 nav {
@@ -78,20 +83,57 @@ h2 {
     font-size: 36px;
 }
 
-.carousel {
-    max-width:960px;
-    margin:auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: stretch;
+h3 {
+    font-size: 4vmax;
+    color: #bf1d3a;
+    font-weight: 100;
 }
 
-.download {
-    height: 24vw;
-    width: 24vw;
-    max-width: 250px;
-    max-height: 250px;
-    margin: 1vw;
-    border: 1px solid red;
+.btn {
+    color: darkred;
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 12px 24px;
+    margin:3vw 0vw;
+    text-decoration: none;
+}
+
+.timeline {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.event {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 6vmin 0px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.event:nth-child(even) {
+    background-color: rgb(255,250,250);
+    flex-wrap: wrap-reverse;
+}
+
+.event img {
+    flex:none;
+    background-color: grey;
+    margin: 3vmin;
+}
+
+.details {
+    flex:5 1;
+    font-size: 2.2vmax;
+    padding: 12px;
+}
+
+.content {
+    margin: 3vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

@@ -12,7 +12,7 @@ const Header = ({ siteTitle, logo }) => (
     </Link>
     <nav>
       <Link to="/">Download</Link>
-      <Link to="/roadmap">Roadmap</Link>
+      <Link to="/">Roadmap</Link>
       <a href="https://github.com/MitchPierias/Agora">Source code</a>
     </nav>
   </header>
