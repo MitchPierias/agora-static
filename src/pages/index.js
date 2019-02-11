@@ -10,7 +10,7 @@ const IndexPage = () => (
       <div style={{flex:"10 10",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
         <h2>Simple Video Conversion</h2>
         <p style={{padding:"12px",fontSize:"18px"}}>Drag, Drop and Convert for Mac</p>
-        <a className="btn" href="https://s3-ap-southeast-2.amazonaws.com/agora-distribution/Agora-0.2.3.dmg" download>
+        <a className="btn" href="https://s3-ap-southeast-2.amazonaws.com/agora-distribution/Agora-0.2.4.dmg" download>
           <span className="artifact">Download</span>
         </a>
       </div>
