@@ -89,13 +89,29 @@ h3 {
     font-weight: 100;
 }
 
-.btn {
+button, .btn {
     color: darkred;
     background-color: #ffffff;
     border-radius: 2px;
     padding: 12px 24px;
     margin:3vw 0vw;
     text-decoration: none;
+    overflow:hidden;
+	transition: transform 0.05s ease-in-out, box-shadow 0.05s ease;
+}
+
+button:hover, .btn:hover {
+    box-shadow: rgba(0,0,0,0.1) 0px 2px 12px;
+}
+
+button:disabled, .btn:disabled {
+	color:#616161;
+	background-color:#F5F5F5;
+}
+
+button:active, .btn:active {
+	transform: scale(0.95);
+    box-shadow: rgba(0,0,0,0.2) 0px 2px 22px;
 }
 
 .timeline {
